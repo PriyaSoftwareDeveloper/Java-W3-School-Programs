@@ -1,0 +1,11 @@
+package ClassesAndObjects;
+
+public class ModifyAttribute {
+	int x = 1;
+	
+	public static void main(String[] args) {
+		ModifyAttribute myObj = new ModifyAttribute();
+		myObj.x = 100;  //modify attributes OR overriding existing attributes
+		System.out.println(myObj.x);
+	}
+}
