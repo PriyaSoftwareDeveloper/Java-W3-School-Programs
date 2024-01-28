@@ -1,0 +1,10 @@
+package ClassesAndObjects;
+
+public class CreateAClassAndObjectOfAClass {
+	int x = 5;
+	
+	public static void main(String[] args) {
+		CreateAClassAndObjectOfAClass myObj = new CreateAClassAndObjectOfAClass();
+		System.out.println(myObj.x);
+	}
+}
