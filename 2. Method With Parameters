@@ -1,0 +1,16 @@
+package Methods;
+	
+public class MethodWithParameters {
+	static void myMethod(String fname) {
+		System.out.println(fname + "AR");
+	}
+	
+	public static void main(String[] args) {
+		myMethod("Priya");
+		myMethod("Raksha ");
+		myMethod("Vedha ");
+		myMethod("Akshara ");
+		myMethod("Pravalika ");
+		myMethod("Pranav ");
+	}
+}
