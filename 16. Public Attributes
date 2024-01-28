@@ -1,0 +1,21 @@
+CLASS 1:
+package ClassObject_PublicAttribute;
+
+public class Person {
+	public String fname = "John";
+	public String lname = "Doe";
+	public String email = "john@doe.com";
+	public int age = 24;
+}
+
+CLASS 2:
+package ClassObject_PublicAttribute;
+
+public class MyClass {
+	public static void main(String[] args) {
+		Person myObj = new Person();
+		System.out.println("Name: " + myObj.fname + " " + myObj.lname);
+		System.out.println("Age: " + myObj.age);
+		System.out.println("Email: " + myObj.email);
+	}
+}
