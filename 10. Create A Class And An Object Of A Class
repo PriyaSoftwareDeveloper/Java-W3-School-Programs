@@ -1,0 +1,10 @@
+package ClassesAndObjects;
+
+public class Create_A_Class_And_An_Object_Of_A_Class {
+	int x = 50;
+	public static void main(String[] args) {
+		Create_A_Class_And_An_Object_Of_A_Class myObj = new Create_A_Class_And_An_Object_Of_A_Class();
+		System.out.println(myObj.x);
+	}
+
+}
