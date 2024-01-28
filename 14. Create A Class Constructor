@@ -1,0 +1,14 @@
+package ClassesAndObjects;
+
+public class CreateAClassConstructor {
+	int x;
+	
+	public CreateAClassConstructor(){
+		x = 5;
+	}
+	
+	public static void main(String[] args) {
+		CreateAClassConstructor myObj = new CreateAClassConstructor();
+		System.out.println(myObj.x);
+	}
+}
