@@ -1,0 +1,46 @@
+CLASS 1:
+package Polymorphism;
+
+class Animal {
+	public void animalSound() {
+		System.out.println("The animal makes a sound.");
+	}
+}
+
+CLASS  2:
+package Polymorphism;
+
+class Pig extends Animal {
+	public void animalSound() {
+		System.out.println("The Pig says: wee wee");
+	}
+}
+
+CLASS 3:
+package Polymorphism;
+
+class Dog extends Animal {
+	public void animalSound() {
+		System.out.println("The Dog says: bow bow");
+	}
+}
+
+CLASS 4:
+package Polymorphism;
+
+class Main {
+	public static void main(String[] args) {
+		Animal myAnimal = new Animal(); // creating a Animal object
+		Pig myPig = new Pig(); // directly creating pig object
+		Dog myDog = new Dog(); // directly creating dog object
+		Animal piggy = new Pig(); // creating a pig object polymorphism
+		Animal doggy = new Dog(); // creating a dog object polymorphism
+		
+		myAnimal.animalSound();
+		myPig.animalSound();
+		myDog.animalSound();
+		System.out.print("\n");
+		piggy.animalSound();
+		doggy.animalSound();
+	}
+}
